@@ -1,0 +1,52 @@
+{
+    "version": "1.5.0-beta",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./bower_components/angular-ui-router/api/angular-ui-router.d.ts",
+        "./config/passport.ts",
+        "./models/user.ts",
+        "./public/javascript/app.ts",
+        "./public/javascript/controllers/accountController.ts",
+        "./public/javascript/controllers/homeController.ts",
+        "./public/javascript/controllers/tokenController.ts",
+        "./public/javascript/factories/accountFactory.ts",
+        "./public/javascript/factories/homeFactory.ts",
+        "./public/javascript/factories/socketFactory.ts",
+        "./routes/index.ts",
+        "./routes/userRoutes.ts",
+        "./server.ts",
+        "./typings/angularjs/angular.d.ts",
+        "./typings/body-parser/body-parser.d.ts",
+        "./typings/cryptojs/cryptojs.d.ts",
+        "./typings/express-jwt/express-jwt.d.ts",
+        "./typings/express-unless/express-unless.d.ts",
+        "./typings/express/express.d.ts",
+        "./typings/mime/mime.d.ts",
+        "./typings/mongoose/mongoose.d.ts",
+        "./typings/node/node.d.ts",
+        "./typings/passport-facebook/passport-facebook.d.ts",
+        "./typings/passport-local/passport-local.d.ts",
+        "./typings/passport/passport.d.ts",
+        "./typings/serve-static/serve-static.d.ts",
+        "./typings/socket.io/socket.io.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}

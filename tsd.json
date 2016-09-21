@@ -1,0 +1,51 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "body-parser/body-parser.d.ts": {
+      "commit": "b45569f35d5f27716d21cc2a639c7d8ccb9a0164"
+    },
+    "node/node.d.ts": {
+      "commit": "b45569f35d5f27716d21cc2a639c7d8ccb9a0164"
+    },
+    "express/express.d.ts": {
+      "commit": "b45569f35d5f27716d21cc2a639c7d8ccb9a0164"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "b45569f35d5f27716d21cc2a639c7d8ccb9a0164"
+    },
+    "mime/mime.d.ts": {
+      "commit": "b45569f35d5f27716d21cc2a639c7d8ccb9a0164"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "b45569f35d5f27716d21cc2a639c7d8ccb9a0164"
+    },
+    "socket.io/socket.io.d.ts": {
+      "commit": "a95ee80de0d4a56b7c5fc82ca19145fc239e76f4"
+    },
+    "cryptojs/cryptojs.d.ts": {
+      "commit": "da995655d8f810e5e860d908bf5422ee59ef8ab6"
+    },
+    "express-jwt/express-jwt.d.ts": {
+      "commit": "da995655d8f810e5e860d908bf5422ee59ef8ab6"
+    },
+    "express-unless/express-unless.d.ts": {
+      "commit": "da995655d8f810e5e860d908bf5422ee59ef8ab6"
+    },
+    "passport/passport.d.ts": {
+      "commit": "338f9db37074d197764e95a487ddb865c5f2d73c"
+    },
+    "passport-local/passport-local.d.ts": {
+      "commit": "338f9db37074d197764e95a487ddb865c5f2d73c"
+    },
+    "mongoose/mongoose.d.ts": {
+      "commit": "338f9db37074d197764e95a487ddb865c5f2d73c"
+    },
+    "passport-facebook/passport-facebook.d.ts": {
+      "commit": "832c51db815c766fa42a2e995a7b3136ec6d15c2"
+    }
+  }
+}

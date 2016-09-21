@@ -1,0 +1,48 @@
+.msg-input {
+  width:70vw;
+}
+
+.msg-submit {
+  width:30vw;
+}
+
+.msg-form {
+  width:100vw;
+  display: flex;
+  flex-wrap:wrap;
+  position: fixed;
+  bottom:0;
+}
+
+@media screen and (max-width:600px) {
+  .msg-input {
+    width:100vw
+  }
+  .msg-submit {
+    width:100vw;
+  }
+}
+
+.msg-dialog {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.msg-dialog li {
+
+}
+
+.msg-dialog li:nth-child(odd) {
+    /*background: rgba(84,	110,	122, 0.5);
+    color:#ffffff;;*/
+}
+
+.msg-dialog li:nth-child(even) {
+    /*background: #ffffff;
+    color:#546e7a;*/
+}
+
+.msg-dialog li:nth-child(even) a {
+  /*background-color:#df691a;*/
+}

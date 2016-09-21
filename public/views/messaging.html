@@ -1,0 +1,20 @@
+<ul class="msg-dialog">
+
+  <li ng-repeat="message in messages" class="row">
+    <div class="col-sm-8" ng-class="{'col-sm-offset-4': currentUser.username === message.user.username}">
+      <div class="well well-sm">
+        <a href="#" class="btn btn-default">{{message.user.username}}</a> - <span>{{message.body}}</span>
+      </div>
+    </div>
+  </li>
+</ul>
+<div>
+  <form ng-submit="sendMessage()" class="msg-form" style="padding-top:0; margin-top:0; z-index:1000; background-color:#eeeeee">
+    <span class="col-sm-9">
+      <input type="text" class="form-control msg-input" ng-model="message.body" style="height:48px"/>
+      </span>
+      <span class="col-sm-3">
+      <input type="submit" class="btn btn-material-light-red btn-block msg-submit" value="Send Message" />
+      </span>
+    </form>
+</div>
